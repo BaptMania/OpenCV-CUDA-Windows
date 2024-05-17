@@ -250,6 +250,8 @@ Une fois cette configuration terminée, il ne reste plus qu'à lancer la derniè
 cmake --build . --config Release --target install
 ```
 
+## Vérification
+
 Si la compilation s'est achevée avec succès, vous avez correctement installé OpenCV pour Python avec CUDA !
 Pour vérifier qu'OpenCV est bien installée avec CUDA, nous pouvons voir si OpenCV détecte notre GPU directement
 avec Python. Il suffit de réaliser les commandes suivantes, toujours dans votre invite de commande :
