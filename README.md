@@ -8,6 +8,17 @@ dans votre terminal. Cependant, pour l'installer pour le GPU, il y a tout un pro
 bibliothèque soit compilée avec CUDA. Dans ce tutoriel, nous allons voir comment installer et compiler la
 bibliothèque OpenCV pour Python sous Windows.
 
+## Sommaire
+
+- **[Préparation](#préparation)**
+  - **[Python _(3.11.9)_](#python)**
+  - **[Git](#git)**
+  - **[Microsoft Visual Studio _(version 16.11)_](#microsoft-visual-studio)**
+  - **[NVIDIA CUDA Toolkit _(version 11.8.0)_](#nvidia-cuda-toolkit)**
+  - **[NVIDIA cuDNN _(version 11.x)_](#nvidia-cudnn)**
+- **[Installation et compilation de OpenCV pour Python avec CUDA](#installation-et-compilation-de-opencv-pour-python-avec-cuda)**
+- **[Vérification](vérification)**
+
 ## Préparation
 
 Avant de se lancer dans l'installation et la compilation d'OpenCV, il est impératif d'installer les outils
@@ -17,7 +28,7 @@ nécessaires. Voici la liste de ceux-ci :
 - **[Git](#git)**
 - **[Microsoft Visual Studio _(version 16.11)_](#microsoft-visual-studio)**
 - **[NVIDIA CUDA Toolkit _(version 11.8.0)_](#nvidia-cuda-toolkit)**
-- **[NVIDIA cuDNN _(version 11.x)_]()**
+- **[NVIDIA cuDNN _(version 11.x)_](#nvidia-cudnn)**
 
 ### Python
 
