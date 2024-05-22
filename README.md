@@ -17,7 +17,7 @@ bibliothèque OpenCV pour Python sous Windows.
   - **[NVIDIA CUDA Toolkit _(version 11.8.0)_](#nvidia-cuda-toolkit)**
   - **[NVIDIA cuDNN _(version 11.x)_](#nvidia-cudnn)**
 - **[Installation et compilation de OpenCV pour Python avec CUDA](#installation-et-compilation-de-opencv-pour-python-avec-cuda)**
-- **[Vérification](vérification)**
+- **[Vérification](#vérification)**
 
 ## Préparation
 
