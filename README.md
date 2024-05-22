@@ -182,7 +182,7 @@ git clone https://github.com/opencv/opencv_contrib.git
 > 
 > ️⚠️ _Votre version d'**OpenCV** doit être la même que votre version d'**OpenCV Contrib**, sinon l'installation ne sera pas effective !_ ⚠️
 > 
-> _Les versions d'OpenCV sont théoriquement compatible avec toutes les versions de CUDA, cependant, j'ai remarqué certaines
+> _Les versions d'OpenCV sont théoriquement compatibles avec toutes les versions de CUDA, cependant, j'ai remarqué que certaines
 > versions d'OpenCV fonctionnent mieux avec des versions spécifiques de CUDA. Par exemple, dans mon cas, j'ai remarqué que la version
 > 4.9.0 d'OpenCV fonctionne mieux avec la version 11.8.0 de CUDA que la version 12.4.0 de CUDA._
 
