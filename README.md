@@ -273,8 +273,8 @@ python
 import cv2
 # Si vous avez installé la version 4.9.0 d'OpenCV, il vous affichera 4.9.0
 print(cv2.__version__)
-# Si vous avec un GPU ou plus d'installé, il vous affichera le nombre de GPU installés sur votre ordinateur
-# S'il affiche 0, cela signifie que la compilation avec CUDA ne s'est pas déroulée comme prévu
+# Si vous avec un GPU ou plus d'installé et que l'installation s'est bien déroulée, il vous affichera le nombre de GPU installés sur votre ordinateur
+# S'il affiche 0, cela signifie que la compilation avec CUDA ne s'est pas déroulée comme prévu, si vous avez un GPU, ou que vous n'avez aucun GPU d'installé
 print(cv2.cuda.getCudaEnabledDeviceCount())
 ```
 
