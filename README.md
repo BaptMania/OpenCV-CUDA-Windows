@@ -85,7 +85,7 @@ Il vous sera alors demandé de vous connecter à votre compte Microsoft. Vous fi
 ![Image - Téléchargement Microsoft Visual Studio 2019 - Connecté](VS2019-DL.png)
 
 Vous aurez alors la possibilité, dans l'onglet "**Téléchargements**", de sélectionner la version communautaire de Microsoft Visual Studio. Cependant,
-si comme ici, le fichier n'est pas accessible, vous pourrez le [télécharger en cliquant ici](https://github.com/BaptMania/OpenCV-CUDA-Windows/raw/main/VisualStudioSetup.exe),
+si comme ici, le fichier n'est pas accessible, vous pourrez le [télécharger en cliquant ici](https://github.com/BaptMania/OpenCV-CUDA-Windows/raw/main/vs_Community2019.exe),
 directement depuis [mon dépôt GitHub](https://github.com/BaptMania/OpenCV-CUDA-Windows).
 
 En double-cliquant sur l'installateur, celui-ci va installer les pré-requis avant de vous demander les options que vous
