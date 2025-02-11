@@ -236,7 +236,7 @@ cmake --build . --config Release
 Lorsque la compilation s'est terminée avec succès, nous pouvons configurer la suite de la compilation :
 
 ```bash
-cmake -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules -D PYTHON_EXECUTABLE="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/python.exe" -D PYTHON3_PACKAGES_PATH="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/Lib/site-packages" -D PYTHON3_NUMPY_INCLUDE_DIRS="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/Lib/site-packages/numpy/core/include" -D PYTHON3_LIBRARIES="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/libs/python311.lib" -D BUILD_OPENCV_PYTHON3=ON -D INSTALL_PYTHON_EXAMPLES=OFF -D BUILD_EXAMPLES=OFF ../opencv
+cmake -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules -D PYTHON_EXECUTABLE="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/python.exe" -D PYTHON3_PACKAGES_PATH="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/Lib/site-packages" -D PYTHON3_NUMPY_INCLUDE_DIRS="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/Lib/site-packages/numpy/_core/include" -D PYTHON3_LIBRARIES="C:/Users/Administrateur/AppData/Local/Programs/Python/Python311/libs/python311.lib" -D BUILD_OPENCV_PYTHON3=ON -D INSTALL_PYTHON_EXAMPLES=OFF -D BUILD_EXAMPLES=OFF ../opencv
 ```
 
 Voici les paramètres que vous devrez adapter à votre situation :
