@@ -252,7 +252,7 @@ d'accès de votre dossier Python.
 Pour les flags à modifier, voici ce qu'il faut ajouter à la fin du chemin d'accès :
 - **PYTHON_EXECUTABLE** : "python.exe"
 - **PYTHON3_PACKAGES_PATH** : "Lib/site-packages"
-- **PYTHON3_NUMPY_INCLUDE_DIRS** : "Lib/site-packages/numpy/core/include"
+- **PYTHON3_NUMPY_INCLUDE_DIRS** : "Lib/site-packages/numpy/_core/include"
 - **PYTHON3_LIBRARIES** : "libs/python311.lib"
 
 Une fois cette configuration terminée, il ne reste plus qu'à lancer la dernière compilation :
